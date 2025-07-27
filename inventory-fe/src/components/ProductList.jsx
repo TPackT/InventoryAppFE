@@ -1,33 +1,33 @@
 export default function ProductList() {
     return (
-        <section>
-            <header></header>
+        <section className="">
+        
             <ul className="product-list">
-                <li>
-                    <span>ID</span>
-                    <span>Name</span>
-                    <span>Desc</span>
-                    <span>Size</span>
-                    <span>Price</span>
-                    <span>Quantity</span>
-                    <span>Action</span>
+                <li className="flex gap-4">
+                    <span className="w-10">ID</span>
+                    <span className="w-32">Name</span>
+                    <span className="w-48">Desc</span>
+                    <span className="w-20">Size</span>
+                    <span className="w-20">Price</span>
+                    <span className="w-20">Quantity</span>
+                    <span className="mr-5">Action</span>
                 </li>
-                <li>
-                    <span>1</span>
-                    <span>Coca-Cola</span>
-                    <span>Whatever</span>
-                    <span>500ml</span>
-                    <span>30</span>
-                    <span>2</span>
+                <li className="flex gap-4">
+                    <span className="w-10">1</span>
+                    <span className="w-32">Coca-Cola</span>
+                    <span className="w-48">Whatever</span>
+                    <span className="w-20">500ml</span>
+                    <span className="w-20">30</span>
+                    <span className="w-20">2</span>
                     <button>Detail</button>
                 </li>
-                <li>
-                    <span>2</span>
-                    <span>Fanta</span>
-                    <span>Whatever</span>
-                    <span>500ml</span>
-                    <span>30</span>
-                    <span>2</span>
+                <li className="flex gap-4">
+                    <span className="w-10">2</span>
+                    <span className="w-32">Fanta</span>
+                    <span className="w-48">Whatever</span>
+                    <span className="w-20">500ml</span>
+                    <span className="w-20">30</span>
+                    <span className="w-20">2</span>
                     <button>Detail</button>
                 </li>
                 

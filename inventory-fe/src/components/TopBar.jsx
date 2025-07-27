@@ -1,5 +1,7 @@
 export default function TopBar() {
     return (
-        <title></title>
+        <section>
+            <h1 className="bg-orange-400">Topbar</h1>
+        </section>
     )
 }
