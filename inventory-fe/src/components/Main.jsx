@@ -1,5 +1,5 @@
 import TopBar from "./TopBar"
-import ProductList from "./ProductList"
+
 import ProductForm from "./ProductForm"
 
 export default function Main() {
@@ -7,7 +7,6 @@ export default function Main() {
         <main>
             <TopBar />
             <ProductForm />
-            <ProductList />
         </main>
     )
 }
